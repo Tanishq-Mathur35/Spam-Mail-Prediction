@@ -1,8 +1,8 @@
 import streamlit as st
 import joblib
 
-model = joblib.load("logistic_regression_model.pkl")
-vectorizer = joblib.load("tfidf_vectorizer (1).pkl")
+model = joblib.load("logistic_regression.pkl")
+vectorizer = joblib.load("tfidf_vectorizer.pkl")
 
 st.set_page_config(page_title="Spam Mail Checker")
 
